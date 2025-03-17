@@ -1,0 +1,37 @@
+/* home.component.css */
+.serenity-spot {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #004aad;
+}
+
+h2, h3 {
+  font-size: 1.8em;
+  color: #3498db;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.2em;
+  color: #004aad;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #bdc3c7;
+  margin: 20px 0;
+}

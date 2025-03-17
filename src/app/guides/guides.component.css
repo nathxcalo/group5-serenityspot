@@ -1,0 +1,56 @@
+.guides-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   background: linear-gradient(to bottom, #e0f2f1, #b2dfdb); /* Light calming gradient */
+ }
+ 
+ .section {
+   width: 80%;
+   max-width: 900px;
+   margin: 20px 0;
+   padding: 20px;
+   background-color: #004aad; /* Deep blue for contrast */
+   color: white;
+   border-radius: 12px;
+   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .section h2 {
+   font-size: 22px;
+   font-weight: bold;
+   text-align: center;
+   background: #ffffff;
+   color: #004aad;
+   padding: 10px;
+   border-radius: 8px;
+   margin-bottom: 15px;
+ }
+ 
+ .section p {
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: justify;
+ }
+ 
+ /* Adjust layout for responsiveness */
+ @media (max-width: 768px) {
+   .guides-container {
+     padding: 15px;
+   }
+ 
+   .section {
+     width: 90%;
+     padding: 15px;
+   }
+ 
+   .section h2 {
+     font-size: 20px;
+   }
+ 
+   .section p {
+     font-size: 14px;
+   }
+ }
+ 
